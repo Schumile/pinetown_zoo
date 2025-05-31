@@ -1,8 +1,13 @@
-body {
+html, body {
+  height: 100%;
   margin: 0;
   padding: 0;
+}
+
+body {
+  min-height: 100vh;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: url('images/map-blur.png') no-repeat center center fixed;
+  background: url('../images/map-blur.png') no-repeat center center fixed;
   background-size: cover;
 }
 
@@ -22,6 +27,11 @@ body {
 
 #header img {
   height: 70%;
+}
+#header {
+  background-image: url('../images/wood-bg.png');
+  background-repeat: repeat-x;
+  
 }
 
 #tabs-top {
